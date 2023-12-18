@@ -308,6 +308,9 @@ ol {
 	position: relative;
 	padding: 30px 0 30px;
 }
+.header__logo img {
+	max-width: 125px;
+}
 
 .header__logo a {
 	display: inline-block;
