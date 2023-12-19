@@ -2784,7 +2784,7 @@ ol {
 
 @media only screen and (max-width: 767px) {
 	.header__logo img {
-		max-width: 80px;
+		max-width: 100px;
 	}
 	.hero__text h2 {
 		font-size: 34px;
