@@ -1521,8 +1521,8 @@ ol {
 }
 
 .about-page {
-	padding-top: 120px;
-	padding-bottom: 90px;
+	padding-top: 53px;
+	padding-bottom: 10px;
 	background-color:#EEE8D7;
 }
 
@@ -1586,12 +1586,14 @@ ol {
 -----------------------*/
 
 .services {
-	padding-top: 120px;
-	padding-bottom: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .services.services-page {
-	padding-bottom: 80px;
+	padding-bottom: 10px;
+	background-color:#EEE8D7;
+
 }
 
 .services.services-page .services__item p {
@@ -2462,11 +2464,14 @@ ol {
 -----------------------*/
 
 .contact {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+
 }
 
 .contact__text {
+	
 	margin-bottom: 50px;
 }
 
