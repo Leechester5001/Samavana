@@ -49,6 +49,7 @@ h1 {
 }
 
 h2 {
+	color: #35271c;
 	font-size: 36px;
 }
 
@@ -123,7 +124,8 @@ ol {
 
 .section-title h2 {
 	font-size: 42px;
-	color: #111111;
+	color:  #35271c;
+	;
 	line-height: 50px;
 /* 	text-transform: uppercase;
  */}
@@ -3022,7 +3024,7 @@ ol {
 
 @media only screen and (max-width: 479px) {
 	.section-title h2 {
-		font-size: 28px;
+		font-size: 30px;
 		line-height: 1;
 	}
 	.hero__text h2 {
