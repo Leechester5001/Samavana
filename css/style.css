@@ -62,11 +62,11 @@ h4 {
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 17px;
 }
 
 h6 {
-	font-size: 16px;
+	font-size: 14px;
 }
 
 p {
@@ -304,13 +304,22 @@ ol {
 	left: 0;
 	z-index: 9;
 	padding: 30px 0 0;
+
+
 }
 
 .header.header-normal {
-	position: relative;
+	position: fixed;
 	padding: 30px 0 30px;
+	background-color: transparent;
+    transition: background-color 0.5s ease;
+
 }
 
+.header_white{
+	background-color: white !important;
+
+}
 
 .header__logo a {
 	display: inline-block;
@@ -425,7 +434,7 @@ ol {
 }
 
 .offcanvas-menu-wrapper {
-	display: none;
+	display:none;
 }
 
 .canvas__open {
@@ -2514,11 +2523,16 @@ ol {
 }
 
 .contact__widget__item__text h5 {
+	/* color: #d2b48c; */
+	color:#35271c
+	margin-bottom: 10px;
+}
+
+.contact__widget__item__text h6 {
 	color: #d2b48c;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
-
 .contact__widget__item__text span {
 	color: #111111;
 	display: block;
