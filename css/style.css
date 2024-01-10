@@ -2837,7 +2837,7 @@ a:focus {
 
 @media only screen and (max-width: 767px) {
 	.header__logo img {
-		max-width: 90px;
+		max-width: 70px;
 	}
 	.hero__text h2 {
 		font-size: 34px;
