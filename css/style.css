@@ -2646,7 +2646,7 @@ a:focus {
 	.header__logo img {
 		max-width:100px;
 		margin-top: -20px;
-		margin bottom: 30px;
+		margin-bottom: 20px;
 	}
 	.container {
 		max-width: 1170px;
@@ -2657,6 +2657,8 @@ a:focus {
 @media only screen and (min-width: 1450px) {
 	.header__logo img {
 		max-width: 100px;
+		margin-bottom: 20px;
+
 	}
 	.container {
 		max-width: 1170px;
@@ -2672,6 +2674,8 @@ a:focus {
 	
 	.header__logo img {
 		max-width: 90px;
+		margin-bottom: 10px;
+
 	}
 	.about__pic {
 		padding-left: 0;
@@ -2697,6 +2701,7 @@ a:focus {
 
 	.header__logo img {
 		max-width: 90px;
+		margin-bottom: 10px;
 	}
 	.hero__slider.owl-carousel .owl-nav button {
 		left: 0;
@@ -2838,6 +2843,7 @@ a:focus {
 @media only screen and (max-width: 767px) {
 	.header__logo img {
 		max-width: 70px;
+		margin-bottom: 10px;
 	}
 	.hero__text h2 {
 		font-size: 34px;
