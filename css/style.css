@@ -1572,11 +1572,13 @@ a:focus {
 
 .about__para__text {
 	margin-bottom: 70px;
+	margin-left: 47px;
 	
 }
 
 .about__para__text p {
 	margin-bottom: 26px;
+
 }
 
 .about__para__text p:last-child {
@@ -1602,6 +1604,7 @@ a:focus {
 	content: "";
 	z-index: -1;
 }
+
 
 .about__page__services__text {
 	text-align: justify;
