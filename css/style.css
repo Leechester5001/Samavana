@@ -2669,6 +2669,11 @@ a:focus {
 		margin-bottom: 20px;
 
 	}
+	.about__para__text {
+		margin-bottom: 70px;
+		margin-left: 47px;
+		
+	}
 	.container {
 		max-width: 1170px;
 	}
