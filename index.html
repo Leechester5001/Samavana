@@ -35,23 +35,23 @@
     //Check if user has scrolled enough
     if ($(window).scrollTop() > scrollAmount) {
         //Add white class
-        $("#header").addClass('header_white');
-    } else if ($("#header").hasClass('header_white')) {
+        header.classList.add("header_black");
+    } else  {
         //Remove white class
-        $("#header").removeClass('header_white');
+        header.classList.remove("header_black");
     }
-});</script>
-    <!-- Offcanvas Menu Begin -->
+});</script> 
+    <!-- Offcanvas Menu Begin-->
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="#"><img src="img/logo2.png" alt=""></a>
+            <a href="#"><img src="img/logo4.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__widget">
            
-            <span>Call us </span>
-            <h4><a href="tel:+91 80737 88988"> 80737 88988</h4></a>
+            
+            <a href="tel:+9180737 88988"><i class="fa fa-phone"></i></a>
         </div>
     </div>
     <!-- Offcanvas Menu End -->
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-lg-2  col-md-3 col-sm-6 col-xs-2">
                     <div class="header__logo">
-                        <a href="#"><img src="img/logo2.png" alt=""></a>
+                        <a href="#"><img src="img/logo4.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -72,7 +72,7 @@
                             <!-- <li><a href="./projects.html">Projects</a></li> -->
                             <li><a href="#about">About</a></li>
                             
-                            <li><a href="#services">Locations</a></li>
+                            <li><a href="#about">Locations</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <li><a href="#">Social Media</a>
                                 <ul class="dropdown">
@@ -88,8 +88,8 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="header__widget">
-                        <span>Call us </span>
-                        <h4><a href="tel:+91 80737 88988"> 80737 88988</h4></a>
+                        <a href="tel:+9180737 88988"><i class="fa fa-phone"></i></a>
+                        <!-- <h4><a href="tel:+91 80737 88988"> 80737 88988</h4></a> -->
                     </div>
                 </div>
             </div>
@@ -103,17 +103,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <h3> Get in Touch with </h3>
-                        <h1>Samavana</h1>
-                        <h3> for </h3>
+                    <img src="img/logo2.png">
+
+                     <div class="breadcrumb__text">
+                        <h3>Wedding Venue in Bengaluru  </h3>
+                        
+                        <!--<h3>Samavana</h3>
+                        <h3> Get in Touch </h3>
+                        <h3>with us for </h3>
                         <h3>Bookings and Enquiries</h3>
+                        
                         <div class="breadcrumb__links">
-                            <!-- <a href="./index.html"></a> -->
+                            
                             <span>
+                            <a href="./index.html"></a>
                             </span>
-                        </div>
-                    </div>
+                        </div> -->
+                    </div> 
+                    <div class="footer__social">
+                                
+                        <a href="https://www.facebook.com/people/Samavana/61554691683414/"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+                        <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                        <a href="https://www.instagram.com/samavana.jbkaval/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+                        <!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
+                        <a href="tel:8073788988"><i class="fa fa-phone"></i></a>&nbsp;&nbsp;
+                        <a href="https://api.whatsapp.com/send?phone=918073788988"><i class="fa fa-whatsapp"></i></a>
+                    </div>&nbsp;&nbsp;
                 </div>
             </div>
         </div>
@@ -130,7 +145,8 @@
                              <h2>Samavana</h2>
                         </div>
                         <div class="about__para__text">
-                            <p>Heritage Wedding Venue in Bengaluru</p>
+                            <!-- <p>Wedding Venue in Bengaluru</p> -->
+                            <p>Halls & Gardens</p>
                         </div>
                     </div>
                 </div>
@@ -167,7 +183,7 @@
         </div>
     </section>
     </section>
-
+<section id="Locations"></section>
     <!-- Services Section Begin -->
     <section class="services services-page spad">
         <section id="services">
@@ -332,7 +348,7 @@
 </section>
     <!-- Contact Section End -->
 
-  
+
 
     <!-- Footer Section Begin -->
     <footer class="footer set-bg" data-setbg="img/footer-bg1.jpg">
